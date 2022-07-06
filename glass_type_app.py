@@ -45,7 +45,7 @@ feature_cols=['RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe']
 def prediction(model,feat_col):
   glass_type=model.predict([feat_col])
   glass_type=glass_type[0]
-  if glass_type ==1=
+  if glass_type ==1:
     return "building windows float processed".upper()
   elif glass_type ==2:
     return "building windows non float processed".upper()
